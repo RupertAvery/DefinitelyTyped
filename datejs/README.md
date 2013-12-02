@@ -30,7 +30,7 @@ all with intellisense support in your IDE.
 
 Since DateJS extends the inherent base *Date* type we cannot cast the static Date class as a *DateJS*. Instead, declare a global var and type it:
 
-`var DateJS = <IDateJSStatic> Date;`
+`var DateJS: IDateJSStatic = <any>Date;`
 
 ## Notes on SugarPak Type Definitions
 
